@@ -1,0 +1,34 @@
+.script-editor { border-color: #34343a; }
+.script-editor.ready {
+  border-color: #536071;
+  box-shadow: 0 0 0 1px rgba(139,184,255,.08), 0 14px 35px rgba(0,0,0,.16);
+}
+.script-editor-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.script-editor-head h3 { margin: 0 0 5px; }
+.script-editor-head small { font-size: 11px; color: #7f8792; }
+.script-editor-head button {
+  border: 1px solid #34343a;
+  background: #202024;
+  color: #aaa;
+  border-radius: 8px;
+  padding: 7px 10px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.script-editor textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 340px;
+  font-family: 'Microsoft YaHei', sans-serif;
+  font-size: 13px;
+  line-height: 1.9;
+}
+.script-editor textarea:disabled { color: #666; background: #0b0b0d; cursor: not-allowed; }
+.script-editor > p { font-size: 11px; color: #71717a; margin: 10px 0 0; line-height: 1.6; }

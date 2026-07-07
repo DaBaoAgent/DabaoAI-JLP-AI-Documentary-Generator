@@ -1,0 +1,64 @@
+{
+  "deepseek": {
+    "model": "deepseek-chat",
+    "api_url": "https://api.deepseek.com/v1/chat/completions",
+    "temperature_match": 0.1,
+    "temperature_title": 0.7,
+    "temperature_narration": 0.7
+  },
+  "cosyvoice": {
+    "model": "cosyvoice-v3.5-plus",
+    "voice_id": "",
+    "speech_rate": 1.0
+  },
+  "seedream": {
+    "api_key": "",
+    "model": "doubao-seedream-4-0-250828",
+    "api_url": "https://ark.cn-beijing.volces.com/api/v3/images/generations",
+    "cover_size": "1080x1440"
+  },
+  "siliconflow": {
+    "api_key": "",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "api_url": "https://api.siliconflow.cn/v1/chat/completions",
+    "frame_interval_sec": 2,
+    "frames_per_batch": 30,
+    "batch_delay_sec": 15,
+    "max_retries": 3,
+    "description_lang": "English"
+  },
+  "dashscope_env_path": ".env",
+  "narration": {
+    "target_minutes": 10
+  },
+  "video": {
+    "trim_head": 6,
+    "trim_tail": 15,
+    "padding_head": 1,
+    "padding_tail": 3,
+    "output_width": 1920,
+    "output_height": 1080,
+    "video_crf": 20,
+    "clip_crf": 23,
+    "gap_crf": 23,
+    "audio_bitrate": "192k"
+  },
+  "audio": {
+    "silence_threshold_db": -30,
+    "min_speech_sec": 1.5,
+    "max_speech_sec": 4.0,
+    "semantic_window_sec": 35,
+    "semantic_batch_size": 15
+  },
+  "bgm_source_dir": "",
+  "bgm_mixkit_tracks": {
+    "BGM_ambient": 292,
+    "BGM_documentary": 587,
+    "BGM_majestic": 676
+  },
+  "bgm_keywords": {
+    "BGM_ambient": "ambient",
+    "BGM_documentary": "documentary",
+    "BGM_majestic": "cinematic"
+  }
+}
