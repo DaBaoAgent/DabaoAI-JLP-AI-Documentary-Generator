@@ -7,6 +7,18 @@ It combines a FastAPI backend, a Vite React WebUI, source-grounded narration gen
 > Default WebUI language: English  
 > Creator and contributor: Dabao
 
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/1.png" alt="DabaoAI-JLP screenshot 1" width="48%" />
+  <img src="assets/screenshots/2.png" alt="DabaoAI-JLP screenshot 2" width="48%" />
+  <img src="assets/screenshots/3.png" alt="DabaoAI-JLP screenshot 3" width="48%" />
+  <img src="assets/screenshots/4.png" alt="DabaoAI-JLP screenshot 4" width="48%" />
+  <img src="assets/screenshots/5.png" alt="DabaoAI-JLP screenshot 5" width="48%" />
+  <img src="assets/screenshots/6.png" alt="DabaoAI-JLP screenshot 6" width="48%" />
+  <img src="assets/screenshots/7.png" alt="DabaoAI-JLP screenshot 7" width="48%" />
+</p>
+
 ## Keywords
 
 AI documentary generator, AI video editing, automatic documentary editing, narration generator, documentary script AI, AI voiceover, GPT-SoVITS WebUI, FastAPI video pipeline, FFmpeg automation, subtitle burn-in, AI cover generator, creator tools.
